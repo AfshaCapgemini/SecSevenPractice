@@ -6,20 +6,8 @@ public class Main {
         Car dodge = new Car("Dodge", 11000, 2019, "Blue");
 
         Car nissan2 = new Car(nissan);
-
         nissan2.setColor("Yellow");
-        nissan.setColor("Orange");
-        nissan2.setColor("Blue");
-        nissan.setColor("Purple");
-        nissan2.setColor("Fuchsia");
-        nissan.setColor("Beige");
 
-
-        System.out.println("This " + nissan.getMake() + " is worth $" + nissan.getPrice() +
-                ". It was built in " + nissan.getYear() + ". It is " + nissan.getColor() + ".\n");
-        System.out.println("This " + nissan2.getMake() + " is worth $" + nissan2.getPrice() +
-                ". It was built in " + nissan2.getYear() + ". It is " + nissan2.getColor() + ".\n");
-        System.out.println("This " + dodge.getMake() + " is worth $" + dodge.getPrice() +
-                ". It was built in " + dodge.getYear() + ". It is " + dodge.getColor() + ".\n");
+        nissan2.drive();
     }
 }
