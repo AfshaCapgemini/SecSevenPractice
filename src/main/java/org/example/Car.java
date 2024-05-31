@@ -13,7 +13,7 @@ public class Car {
         this.make = make;
         this.price = price;
         this.year = year;
-        this.color =color;
+        this.color = color;
         this.parts = Arrays.copyOf(parts, parts.length);
     }
 
@@ -22,7 +22,7 @@ public class Car {
         this.price = source.price;
         this.year = source.year;
         this.color = source.color;
-        this.parts = source.parts;
+        this.parts = Arrays.copyOf(source.parts, source.parts.length);
     }
 
     public String getMake() {
